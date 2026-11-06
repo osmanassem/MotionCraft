@@ -26,6 +26,7 @@ Version 0.1.2. Tested against EffectCraft 0.21.0.
 | Elastic | Adds an overshoot-and-settle expression after each keyframe of the selected properties, with live sliders: MC Elastic Amplitude, Frequency, Decay. |
 | Bounce | Adds a bounce-against-the-target expression with live sliders: MC Bounce Elasticity, Gravity, Count. |
 | Remove | Removes MotionCraft elastic and bounce expressions from the selected properties (or the whole layer when no property is selected) and deletes their sliders once unused. |
+
 ![Motion tab](docs/MotionCraft-Motion-Tab.png)
 
 ### Text tab
@@ -51,12 +52,13 @@ Under the hood each phase is one text animator (`MotionCraft In` / `MotionCraft 
 | Merge shape layers | Copies the groups of the selected shape layers into the topmost one, keyframes and expressions included, moving each layer's position offset onto its groups. The sources are switched off. |
 | Clean empty and hidden groups | Removes empty groups and switched-off items from the selected shape layers. |
 
+![Shapes tab](docs/MotionCraft-Shapes-Tab.png)
+
 ## Changes
 
 - 0.1.2: ease influence is typed (In %, Out %) instead of sliders; new Linear button undoes easing; new Remove button undoes Elastic and Bounce.
 - 0.1.1: tab contents no longer overlap the tab headers in EffectCraft; Opacity is a value instead of an on/off fade; dropdown rows line up with the number fields.
 - 0.1.0: first release.
-![Shapes tab](docs/MotionCraft-Shapes-Tab.png)
 
 ## Known limits
 
