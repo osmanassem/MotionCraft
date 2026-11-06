@@ -26,6 +26,7 @@ Version 0.1.2. Tested against EffectCraft 0.21.0.
 | Elastic | Adds an overshoot-and-settle expression after each keyframe of the selected properties, with live sliders: MC Elastic Amplitude, Frequency, Decay. |
 | Bounce | Adds a bounce-against-the-target expression with live sliders: MC Bounce Elasticity, Gravity, Count. |
 | Remove | Removes MotionCraft elastic and bounce expressions from the selected properties (or the whole layer when no property is selected) and deletes their sliders once unused. |
+![Motion tab](docs/MotionCraft-Motion-Tab.png)
 
 ### Text tab
 
@@ -39,6 +40,7 @@ Animates the selected text layers in, out, or both, unit by unit.
 Timing is live. Each phase adds three sliders to the layer (`MC In Delay`, `MC In Duration`, `MC In Start`; `MC Out Delay`, `MC Out Duration`, `MC Out End`, all in frames), so you retime by dragging a slider instead of moving keyframes. The Out phase is pinned to the layer's out-point, so trimming the layer moves it. Applying again replaces the existing MotionCraft animation; **Remove** deletes it and its sliders.
 
 Under the hood each phase is one text animator (`MotionCraft In` / `MotionCraft Out`) with an Expression Selector, so the result keeps working on machines without MotionCraft installed.
+![Text tab](docs/MotionCraft-Text-Tab.png)
 
 ### Shapes tab
 
@@ -54,6 +56,7 @@ Under the hood each phase is one text animator (`MotionCraft In` / `MotionCraft 
 - 0.1.2: ease influence is typed (In %, Out %) instead of sliders; new Linear button undoes easing; new Remove button undoes Elastic and Bounce.
 - 0.1.1: tab contents no longer overlap the tab headers in EffectCraft; Opacity is a value instead of an on/off fade; dropdown rows line up with the number fields.
 - 0.1.0: first release.
+![Shapes tab](docs/MotionCraft-Shapes-Tab.png)
 
 ## Known limits
 
